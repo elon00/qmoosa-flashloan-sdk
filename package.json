@@ -1,0 +1,27 @@
+{
+  "name": "@qmoosa/flashloan-sdk",
+  "version": "1.0.0",
+  "description": "ERC-3156 Flash Loan SDK — TypeScript Client, Flash Borrower Helpers, Cryptographic Intent Signer & Invariant Utilities",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/sdk.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "flashloan",
+    "sdk",
+    "erc-3156",
+    "defi",
+    "web3"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
